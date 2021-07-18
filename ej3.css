@@ -1,0 +1,142 @@
+body{
+    display:flex;
+    justify-content: space-around;
+    margin-top:3%;
+    position:relative;
+}
+#main{
+    width:38%;
+    padding:1%;
+    border-top:30px solid #ce8989bf;
+    border-left:8px solid #ce8989bf;
+    border-right:8px solid #ce8989bf;
+    border-bottom:8px solid #ce8989bf;
+    border-radius:10px;
+    box-shadow:1px 1px 10px 3px black;
+    position:relative;
+}
+#main::before{
+    content: "EXCELeINFO - Captura Excel - Access";
+    position: absolute;
+    top: -1.5rem;
+    left: 0;
+}
+#x{
+    position:absolute;
+    width:50px;
+    height:20px;
+    background-image:linear-gradient(#eb9999, #ba1a1a);
+    color:white;
+    text-align:center;
+    border-radius:0 0 6px 0;
+    border:1px solid grey;
+    right: 0;
+    top: -1.9rem;
+}
+#x:hover{
+    background-image:linear-gradient(#ff1f1fc7, #660606);
+}
+#maximizar{
+    position:absolute;
+    width:30px;
+    height:20px;
+    background-image: linear-gradient(#e1caca, #936262);
+    color:white;
+    text-align:center;
+    border:1px solid grey;
+    right: 3rem;
+    top: -1.9rem;
+}
+#maximizar:hover{
+    background-image: linear-gradient(#efe5e5, #ba8484);
+}
+#minimizar{
+    position:absolute;
+    width:30px;
+    height:20px;
+    background-image: linear-gradient(#e1caca, #936262);
+    color:white;
+    text-align:center;
+    border:1px solid grey;
+    border-radius:0 0 0 6px;
+    right: 4.8rem;
+    top: -1.9rem;
+}
+#minimizar:hover{
+    background-image: linear-gradient(#efe5e5, #ba8484);
+}
+
+.primeratabla{
+    width:100%;
+}
+.celdadia{
+    width:12%;
+}
+.celdames{
+    width:12%;
+}
+.celdaanio{
+    width:16%;
+}		
+.celdacac{
+    width:40%;
+}
+select{
+    padding:1%;
+}
+select[name="cac"] {
+    width: 100%;
+}
+.folio{
+    float:left;
+    width:15%;
+    margin-right:4%;
+}
+.numero{
+    width:100%;
+}
+.com{
+    float:left;
+    width: 80%;
+    margin-bottom:4%;
+}
+.tabla2{
+    width:100%;
+    margin-top: 1%;
+}
+input[type="submit"]{
+    padding:2.2%;
+    width:20%;
+    float:left;
+    margin-top:3%;
+    margin-left:55%;
+    box-shadow:1px 1px 2px 1px grey;
+    border:none;
+}
+input[type="reset"]{
+    padding:2.2%;
+    width:20%;
+    float:right;
+    margin-top:3%;
+    box-shadow:1px 1px 2px 1px grey;
+    border:none;
+}
+input[type="submit"]:active,input[type="reset"]:active{
+    border:1px solid black;
+}
+
+@media screen and (max-width:992px) {
+    #main{
+        width:60%;
+    }
+}
+@media screen and (max-width:768px) {
+    #main{
+        width:80%;
+    }
+}
+@media screen and (max-width:576px) {
+    .com{
+        width:79%;
+    }
+}
