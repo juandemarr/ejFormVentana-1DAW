@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ej Formulario Voluntario</title>
+	<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
+	<link rel="stylesheet" type="text/css" href="ej3.css">
+</head>
+
+<body>
+	<section id="main">
+		<button type="button" id="minimizar">-</button>
+		<button type="button" id="maximizar">&#9645;</button>
+		<button type="button" id="x">x</button>
+
+		<h1>Ejemplo de captura de Excel - Access</h1>
+		<hr>
+		<h3>Asesor: NOMBR3</h3>
+		<form>
+		<table class="primeratabla">
+			<tr>
+				<td class="celdadia">
+					<p>Día</p>
+					<select name="dia">
+						<option value="dia">1</option>
+						<option value="dia">2</option>
+						<option value="dia">3</option>
+						<option value="dia">4</option>
+						<option value="dia">5</option>
+						<option value="dia">6</option>
+						<option value="dia">7</option>
+						<option value="dia">8</option>
+						<option value="dia">9</option>
+						<option value="dia">10</option>
+						<option value="dia">11</option>
+						<option value="dia">12</option>
+						<option value="dia">13</option>
+						<option value="dia">14</option>
+						<option value="dia">15</option>
+						<option value="dia">16</option>
+						<option value="dia">17</option>
+						<option value="dia">18</option>
+						<option value="dia">19</option>
+						<option value="dia">20</option>
+						<option value="dia">21</option>
+						<option value="dia">22</option>
+						<option value="dia">23</option>
+						<option value="dia">24</option>
+						<option value="dia">25</option>
+						<option value="dia">26</option>
+						<option value="dia">27</option>
+						<option value="dia">28</option>
+						<option value="dia">29</option>
+						<option value="dia">30</option>
+						<option value="dia">31</option>
+					</select>
+				</td>
+				<td class="celdames">
+					<p>Mes</p>
+					<select name="mes">
+						<option value="enero">1</option>
+						<option value="febrero">2</option>
+						<option value="marzo">3</option>
+						<option value="abril">4</option>
+						<option value="mayo">5</option>
+						<option value="junio">6</option>
+						<option value="julio">7</option>
+						<option value="agosto">8</option>
+						<option value="septiembre">9</option>
+						<option value="octubre">10</option>
+						<option value="noviembre">11</option>
+						<option value="diciembre">12</option>
+					</select>
+				</td>
+				<td class="celdaanio">
+					<p>Año</p>
+					<select name="anio">
+						<option value="2010">2010</option>
+						<option value="2011">2011</option>
+						<option value="2012">2012</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+					</select>
+				</td>
+				<td>
+					<p>Hora:</p>
+					<input type="time">
+				</td>
+				<td class="celdacac">
+					<p>CAC</p>
+					<select name="cac">
+						<option value="cac1">CAC1</option>
+						<option value="cac2">CAC2</option>
+						<option value="cac3">CAC3</option>
+					</select>
+				</td>
+			</tr>
+		</table><br>
+		<div class="folio">
+			<p>Folio</p>
+			<input type="number" class="numero">
+		</div>
+		<div class="com">
+			<p>Comentarios</p>
+			<input type="text" class="numero">
+		</div>
+		<fieldset>
+			<legend>Datos del cliente</legend>
+			<table class="tabla2">
+				<tr>
+					<td>
+						<label for="nombre">Nombre</label><br>
+						<input type="text" id="nombre"/>
+					</td>
+					<td>
+						<label for="ciudad">Ciudad</label><br>
+						<input type="text" id="ciudad"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="celular">Celular</label><br>
+						<input type="number" id="celular"/>
+					</td>
+					<td>
+						<label for="estado">Estado</label><br>
+						<input type="text" id="estado"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="rfc">RFC</label><br>
+						<input type="text" id="rfc"/>
+					</td>
+					<td>
+						<label for="cp">CP</label><br>
+						<input type="number" id="cp"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="empleo">No. de empleo ó contacto</label><br>
+						<input type="number" id="empleo"/>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="domicilio">Domicilio</label><br>
+						<input type="text" id="domicilio"/>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="colonia">Colonia</label><br>
+						<input type="text" id="colonia"/>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="calles">Entre qué calles</label><br>
+						<input type="text" id="calles"/>
+					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<input type="submit" value="Alta"/>
+		<input type="reset" value="Cerrar"/>
+		<form>
+	</section>
+</body>
+</html>
